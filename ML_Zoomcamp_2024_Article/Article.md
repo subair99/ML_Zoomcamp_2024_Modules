@@ -1,5 +1,5 @@
 
-# Using Bagging And Xgboost To Train Large Datasets
+# Using Bagging And XGBoost To Train Large Datasets
 I was recently confronted by a gigantic problem of having to train and score a dataset with 7,432,685 rows and 16 columns. The dataset is from the Kaggle [ML Zoomcamp 2024 Competition]( https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition) which is aimed at rewording the model with the best root mean squared error. Before I continue I will define and explain some concepts.
 
 
