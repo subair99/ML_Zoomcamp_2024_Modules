@@ -84,6 +84,8 @@ sales = sales[features]
 ```python
 # Show the shape of sales
 sales.shape
+
+(7432685, 16)
 ```
 
 
