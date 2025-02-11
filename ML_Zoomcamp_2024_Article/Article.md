@@ -49,6 +49,7 @@ from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 Then we load the data
 
+```python
 # Define the path
 path = '/kaggle/input/ml-zoomcamp-2024-competition/'
 
@@ -78,10 +79,12 @@ features = [
 ]
 
 sales = sales[features]
+```
 
-
-
-
+```python
+# Show the shape of sales
+sales.shape
+```
 
 
 
