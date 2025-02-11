@@ -197,7 +197,7 @@ Single XGBoost - RMSE: 9.5957
 Bagging XGBoost - RMSE: 9.6066
 ```
 
-As expected the bagging model performs better than the bare XGBRegressor. The next step is to show that bagging has the ability train a data of a very large size. We start from the top.
+As expected, the bagging model performs better than the bare XGBRegressor. The next step is to show that bagging has the ability train a data of a very large size. We start from the top.
 
 ```python
 # Now train the sales data with bagging and inputting null values
@@ -275,4 +275,4 @@ Bagging XGBoost - RMSE: 20.7980
 ```
 
 # Conclusion
-In this article, I have been able to demonstarate the fact that bagging improves the result of a bare XGBRegressor model and also that it can train a very large dataset to produce a credible result
+In this article, I have been able to demonstrate the fact that bagging improves the result of a bare XGBRegressor model and also that it can train a very large dataset to produce a credible result
