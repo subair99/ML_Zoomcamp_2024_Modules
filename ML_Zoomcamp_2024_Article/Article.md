@@ -26,24 +26,26 @@ Ensemble modeling is a process by which multiple diverse base models are used to
 ## Practical Demonstration
 An example of bagging will be demonstrated using the dataset of the competition mentioned at the beginning of this article. We start by importing the required modules.
 
-> # Filter warnings
-> import warnings 
-> warnings.filterwarnings('ignore')
+```python
+# Filter warnings
+import warnings 
+warnings.filterwarnings('ignore')
 
-> # Import required modules
-> import numpy as np
-> import pandas as pd
-> import seaborn as sns
-> import matplotlib.pyplot as plt
-> from xgboost import XGBRegressor
-> from joblib import Parallel, delayed
-> from sklearn.impute import SimpleImputer
-> from catboost import CatBoostRegressor, Pool
-> from sklearn.ensemble import BaggingRegressor
-> from sklearn.metrics import mean_squared_error
-> from sklearn.model_selection import train_test_split
-> from sklearn.preprocessing import LabelEncoder, MinMaxScaler
-> %matplotlib inline
+# Import required modules
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from xgboost import XGBRegressor
+from joblib import Parallel, delayed
+from sklearn.impute import SimpleImputer
+from catboost import CatBoostRegressor, Pool
+from sklearn.ensemble import BaggingRegressor
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+%matplotlib inline
+```
 
 Then we load the data
 
